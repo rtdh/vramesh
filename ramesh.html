@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Rohan</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+<style>
+	* {margin:0;padding:0;box-sizing: border-box;}
+	.container-fluid {margin:0;padding:0;}
+	.container-fluid .row,.col-md-12,h1{margin:0;padding:0;}
+	body * {margin:0;padding:0;box-sizing: border-box;}
+	.col-md-6 {margin:0;padding:0;}
+	.row {margin:20px 0}
+	.rowimg {box-shadow: 5px 5px 10px lightgray;}
+
+	.footer a {display: inline-block; text-decoration: none;font-size: 12px;margin-right:15px;color:black;border-right-color: red;}
+	.logo {font-size: 50px;font-family: cursive;}
+
+	.showcase {width:100vw;height:90vh;animation-name: slide_show;animation-duration: 15s;animation-iteration-count: infinite;animation-fill-mode: forwards;animation-timing-function: ease-in-out;}
+	.logo {font-family: sans-serif;color:royalblue;}
+	.logo a {text-decoration: none;color:white;}
+
+@keyframes slide_show {
+	20% {background-image:url(images/rohan3.jpg);
+		background-size:cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	40% {background-image:url(images/rohan5.jpg);
+		background-size:cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	60% {background-image:url(images/rohan6.jpg);
+		background-size:cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	80% {background-image:url(images/rohan3.jpg);
+		background-size:cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	100% {background-image:url(images/rohan5.jpg);
+		background-size:cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+}
+</style>
+
+</head>
+<body>
+<div class="container-fluid">
+<header style="background-color:royalblue;">
+<div class="row">
+	<div class="col-md-12 text-center">
+		<h1 class="logo"><a href="#">ROHAN</a></h1>
+	</div>
+</div>
+</header>
+</div>
+<div class="container">
+	<div class="row" data-aos="zoom-in-left" data-aos-duration="1500">
+		<div class="col-md-12 showcase justify-content-center">
+
+		</div>
+
+	</div>
+	<div class="row text-center rowimg" id="grad">
+		<div class="col-md-4  p-5 " data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1000">
+			<a href="javascript:void(0)"><img class="img-responsive" src="images/rohan1.jpg" data-toggle="modal" data-target="#myModal" style="width:100%;height:200px;"></a>
+			<p>Click on the Image</p>
+		</div>
+		<div class="col-md-4  p-5 " data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1000">
+			<a href="javascript:void(0)"><img class="img-responsive" src="images/rohan2.jpg" data-toggle="modal" data-target="#myModal2" style="width:100%;height:200px;"></a>
+			<p>Click on the Image</p>
+		</div>
+		<div class="col-md-4  p-5 " data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1000">
+			<a href="javascript:void(0)"><img class="img-responsive" src="images/rohan4.jpg" data-toggle="modal" data-target="#myModal3" style="width:100%;height:200px;"></a>
+			<p>Click on the Image</p>
+		</div>
+	</div>
+	<div class="row">
+
+				<div class="col-md-12 text-center footer">
+					<a href="#">Copyright</a> |
+					<a href="#">Privacy</a> |
+					<a href="#">Terms & Conditions</a>
+				</div>
+
+	</div>
+</div>
+
+
+<!-- myModal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Rohan with Puppy </h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="images/rohan1.jpg"style="width:100%">
+        <p> Rohan is with Puppy looking so nice</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- myModal2 -->
+<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Rohan as Krishna</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="images/rohan2.jpg" style="width:100%">
+        <p>Rohan as Lord Krishna</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- myModal3 -->
+<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Rohan as Lovely Boy</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="images/rohan4.jpg" style="width:100%">
+        <p>Rohan looking very smart</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<script type="text/javascript">
+
+	AOS.init({
+
+		easing:'ease-in-out-sine'
+	});
+
+</script>
+
+
+
+</body>
+</html>
